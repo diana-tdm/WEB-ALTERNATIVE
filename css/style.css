@@ -1202,7 +1202,7 @@ body {
     font-size: 41px;
     line-height: 50px;
     color: #ef8b54;
-    margin: 30px 80px 60px 0px;
+    margin: 30px 45px 60px 0px;
   }
 }
 
@@ -1221,7 +1221,7 @@ body {
 
 @media (min-width: 1025px) {
   .online-store__text {
-    padding: 54px 64px;
+    padding: 52px 64px;
     margin-right: 100px;
   }
 }
@@ -1241,6 +1241,7 @@ body {
     font-weight: 300;
     font-size: 16px;
     line-height: 20px;
+    margin-bottom: 4px;
   }
 }
 
@@ -1256,9 +1257,9 @@ body {
 
 @media (min-width: 1025px) {
   .online-store__paragraph--active {
-    font-weight: 500;
     font-size: 25px;
     line-height: 30px;
+    margin-bottom: 14px;
   }
 }
 
@@ -1288,6 +1289,14 @@ body {
   margin: 0px 20px 85px;
 }
 
+@media (min-width: 1025px) {
+  .online-store__form {
+    background: #ffffff;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px 30px;
+  }
+}
+
 .form__input {
   width: 100%;
   height: 45px;
@@ -1300,6 +1309,17 @@ body {
   line-height: 17px;
   color: #595959;
 }
+
+@media (min-width: 1025px) {
+  .form__input {
+    margin-bottom: 15px;
+    padding-left: 20px;
+    background: #f6f6f6;
+    border: 0.5px solid #d0d0d0;
+    box-sizing: border-box;
+  }
+}
+
 .form__textarea {
   width: 100%;
   height: 80px;
@@ -1312,6 +1332,17 @@ body {
   line-height: 17px;
   color: #595959;
 }
+
+@media (min-width: 1025px) {
+  .form__textarea {
+    background: #f6f6f6;
+    border: 0.5px solid #d0d0d0;
+    box-sizing: border-box;
+    margin-bottom: 13px;
+    padding: 14px 0px 0px 20px;
+  }
+}
+
 .online-store__accord {
   display: flex;
   flex-direction: row;
@@ -1330,10 +1361,19 @@ body {
   margin-left: 14px;
 }
 
-.online-store__accord-robot {
-  width: 200px;
-  height: auto;
+@media (min-width: 1025px) {
+  .online-store__accord-text {
+    color: #595959;
+  }
+}
+
+.online-store__accord-recaptcha {
+  width: 100%;
   margin-bottom: 15px;
+}
+
+.g-recaptcha {
+  max-width: 204px;
 }
 
 .online-store__btn {
@@ -1349,6 +1389,12 @@ body {
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
+}
+
+@media (min-width: 1025px) {
+  .online-store__btn {
+    width: 100%;
+  }
 }
 
 .footer {

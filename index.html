@@ -4,7 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>E-commerce</title>
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/style.css"/>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
 <body>
@@ -494,7 +495,9 @@
               Нажимая на кнопку "Отправить", я даю согласие на обработку персональных данных.
             </p>
           </div>
-          <img class="online-store__accord-robot" src="img/robot.jpg" alt="robot">
+          <div class="online-store__accord-recaptcha">
+            <div class="g-recaptcha" data-sitekey="6LcG-SobAAAAANxuMyiLHNMEp-r9qh8R_Gsmg_bk"></div>
+          </div>
           <button class="online-store__btn">
             Отправить
           </button>
